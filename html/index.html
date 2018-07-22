@@ -1,0 +1,47 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Janelle Monae</title>
+        <link rel="stylesheet" type="text/css" href="style-jm.css">
+    
+    </head>
+
+    <body>
+        <p>Is this working?</p>
+        <h1>How Well Do You Know Janelle?</h1>
+        <img src="janelle-monae.jpg" height="300" width="475" class="center">
+        <div id="topcorner">
+            <p id="name"></p>
+            <p id="score"></p>
+        </div>
+
+        <div id="form1">
+            <form>
+                
+                <p>Your Name: <input type="text" placeholder="First Name Only" id="inputName">
+                    <button onclick='testMe()'>Submit</button></p>
+                    
+                <h3>Are you a true Janelle Monae fan?</h3>
+                <p>YES<input type="radio" name="Fan" value="yes" onclick="sendAlert();"></p>
+                <p>Not Really<input type="radio" name="Fan" value="no" onclick="sendOtherAlert();"></p>  
+            </form> 
+        </div>
+        
+        <div id="form2">
+            <form>
+                <p> Question:
+                    <p>
+                    <select>
+                        <option>Need Answer</option>
+                        <option>Need Answer</option>
+                        <option>Need Answer</option>
+                        <option selected>Need Answer</option>
+                        <option>Need Answer</option>
+                    </select>
+                    </p>
+                </p>    
+            </form>    
+        </div>
+    </body>
+    <!-- <script src="jquery.min.js"></script> -->
+    <script type="text/javascript" src="script.js"></script>
+</html>
